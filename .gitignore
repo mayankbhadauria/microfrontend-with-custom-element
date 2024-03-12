@@ -1,15 +1,30 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+/microfrontend-base/dist
+/microfrontend-base/tmp
+/microfrontend-base/out-tsc
+/microfrontend-base/bazel-out
+
+/microfrontend-1/dist
+/microfrontend-1/tmp
+/microfrontend-1/out-tsc
+/microfrontend-1/bazel-out
+
+/microfrontend-2/dist
+/microfrontend-2/tmp
+/microfrontend-2/out-tsc
+/microfrontend-2/bazel-out
 
 # Node
-/node_modules
-npm-debug.log
-yarn-error.log
+/microfrontend-base/node_modules
+/microfrontend-1/node_modules
+/microfrontend-2/node_modules
+/microfrontend-base/npm-debug.log
+/microfrontend-1/npm-debug.log
+/microfrontend-2/npm-debug.log
+/microfrontend-1/yarn-error.log
+/microfrontend-2/yarn-error.log
 
 # IDEs and editors
 .idea/
@@ -29,7 +44,11 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
-/.angular/cache
+.angular/cache
+/microfrontend-base/.angular/cache
+/microfrontend-1/.angular/cache
+/microfrontend-2/.angular/cache
+
 .sass-cache/
 /connect.lock
 /coverage

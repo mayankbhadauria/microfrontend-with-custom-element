@@ -1,0 +1,18 @@
+<div class="border margin padding">
+  <div>
+    <div class="">
+      <h1>Hi , I am microfrontend application 2</h1>
+      <form action="#">
+        <div class="margin">
+          <input  #msg type="text" name="msg" [(ngModel)]="sendmsg" [value]="sendmsg"/>
+        </div>
+        <div class="margin">
+          <button type="submit" class= "buttonStyle" (click)="sendData(msg.value)">Send Message</button>
+        </div>
+      </form>
+      <div class="" role="alert">
+        <div *ngFor="let message of message">{{message}}</div>
+      </div>
+    </div>
+  </div>
+</div>

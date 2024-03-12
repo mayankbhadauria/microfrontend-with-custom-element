@@ -1,0 +1,16 @@
+.buttonStyle{
+    background-color:cadetblue;
+    font-style: italic;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.margin {
+    margin: 15px;
+}
+
+.padding {
+    padding: 10px;
+}

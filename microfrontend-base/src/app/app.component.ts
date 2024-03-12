@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'microfrontend_base';
+  url1 = 'http://localhost:4201/microfrontend_01.js';
+  url2 = 'http://localhost:4202/microfrontend_02.js';
 }
